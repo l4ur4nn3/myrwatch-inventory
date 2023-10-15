@@ -1,4 +1,8 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
     font-family: Arial, sans-serif;
     text-align: center;
 }
@@ -38,4 +42,4 @@ ul#summary a {
 
 ul#summary a:hover {
     text-decoration: underline;
-}
+} */
