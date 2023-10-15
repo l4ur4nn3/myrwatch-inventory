@@ -39,3 +39,16 @@ h2Elements.forEach((h2, index) => {
 const todoList = document.getElementById('todo-list');
 document.body.insertBefore(summaryList, todoList);
 
+// collect all the quest buttons
+const questButtons = document.querySelectorAll('.quest-button');
+
+// show the quest linked to the item
+function afficherQuete(event) {
+    const questName = event.target.getAttribute('data-quest');
+    alert(`Quête associée à cet objet : ${questName}`);
+}
+
+// add and addeventlistener
+questButtons.forEach(button => {
+    button.addEventListener('click', afficherQuete);
+});

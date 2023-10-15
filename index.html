@@ -1,53 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/resources/style.css" rel="stylesheet" />
     <title>Document</title>
 </head>
+
 <body>
     <ul id="todo-list">
         <li>
             <h2>Boucliers</h2>
         </li>
-        <li><input type="checkbox" id="item1"><label for="item1">Bouclier d'Auriel</label></li>
-        <li><input type="checkbox" id="item9"><label for="item9">Bouclier runique</label></li>
-        <li><input type="checkbox" id="item13"><label for="item13">Bouclier d'Aethérium</label></li>
-        <li><input type="checkbox" id="item14"><label for="item14">Targe sanguinaire</label></li>
-        <li><input type="checkbox" id="item15"><label for="item15">Parasortis</label></li>
-        <li><input type="checkbox" id="item17"><label for="item17">Bouclier d'Ysgramor</label></li>
+        <li>
+            <input type="checkbox" id="item1">
+            <label for="item1">Bouclier d'Auriel</label>
+            <button 
+            class="quest-button" 
+            data-quest="Trouvé sur le cadavre d’un Ombremestre Falmer dans la Forêt du Val Oublié. Pour l’obtenir, utilisez le Rubis Parangon pour vous téléporter dans la forêt en question."
+            >?</button>
+        </li>
+        <li>
+            <input type="checkbox" id="item9">
+            <label for="item9">Bouclier runique</label>
+            <button class="quest-button" data-quest="Relique perdue">?</button>
+        </li>
+        <li>
+            <input type="checkbox" id="item13">
+            <label for="item13">Bouclier d'Aethérium</label>
+            <button class="quest-button" data-quest="Perdue dans les Âges">?</button>
+        </li>
+        <li>
+            <input type="checkbox" id="item14">
+            <label for="item14">Targe sanguinaire</label>
+            <button class="quest-button" data-quest="La quête de l'extraordinaire">?</button>
+        </li>
+        <li>
+            <input type="checkbox" id="item15">
+            <label for="item15">Parasortis</label>
+            <button class="quest-button" data-quest="Le seul remède">?</button>
+        </li>
+        <li>
+            <input type="checkbox" id="item17">
+            <label for="item17">Bouclier d'Ysgramor</label>
+            <button class="quest-button" data-quest="Trouvé dans le coffre situé dans la dernière salle du tombeau d’Ysgramor">?</button>
+        </li>
         <li>
             <h2>Parangons</h2>
+            <p>Dans le Val Oublié, vous aurez l’opportunité d’affronter des géants de glace afin de récupérer les Gemmes Parangon.
+            </br>Au nombre de cinq, celles-ci vous permettront d’atteindre des lieux secrets en utilisant le Portail Parangon situé à l’Ouest de l’Autel de la Vue.</p>
         </li>
-        <li><input type="checkbox" id="item2"><label for="item2">Parangon Diamant</label></li>
-        <li><input type="checkbox" id="item3"><label for="item3">Parangon Rubis</label></li>
-        <li><input type="checkbox" id="item4"><label for="item4">Parangon Améthyste</label></li>
-        <li><input type="checkbox" id="item5"><label for="item5">Saphir Parangon</label></li>
-        <li><input type="checkbox" id="item6"><label for="item6">Parangon Émeraude</label></li>
         <li>
-            <h2>Pichets</h2>
+            <input type="checkbox" id="item2">
+            <label for="item2">Parangon Diamant</label>
+            <button 
+            class="quest-button" 
+            data-quest="En sortant de la Fissure Glaciale, tournez à gauche pour trouver la grotte abritant le géant."
+            >?</button>
         </li>
-        <li><input type="checkbox" id="item7"><label for="item7">Pichet de l'Initié</label></li>
+        <li>
+            <input type="checkbox" id="item3">
+            <label for="item3">Parangon Rubis</label>
+            <button 
+            class="quest-button" 
+            data-quest="Dans le Sanctuaire Intérieur, déposez le Pichet de l’Initié sur l’autel qui se trouve dans la pièce à l’Ouest de l’entrée. Pénétrez ensuite dans le passage secret pour trouver le géant et la dernière Gemme Parangon. Cette Gemme est indispensable pour obtenir le Bouclier d’Auriel."
+            >?</button>
+        </li>
+        <li>
+            <input type="checkbox" id="item4">
+            <label for="item4">Parangon Améthyste</label>
+            <button 
+            class="quest-button" 
+            data-quest="Au bas de la rivière, au Sud du Portail Parangon."
+            >?</button>
+        </li>
+        <li>
+            <input type="checkbox" id="item5">
+            <label for="item5">Saphir Parangon</label>
+            <button 
+            class="quest-button" 
+            data-quest="Sur le géant situé juste en face du Portail Parangon."
+            >?</button>
+        </li>
+        <li>
+            <input type="checkbox" id="item6">
+            <label for="item6">Parangon Émeraude</label>
+            <button 
+            class="quest-button" 
+            data-quest="Derrière une cabane Falmer à l’Est de l’entrée de la Grotte de la Pente Raide. Cette Gemme est indispensable pour obtenir le deuxième livre du Val Oublié."
+            >?</button>
+        </li>
+        <li>
+            <h2>Pichet</h2>
+        </li>
+        <li>
+            <input type="checkbox" id="item7">
+            <label for="item7">Pichet de l'Initié</label>
+            <button 
+            class="quest-button" 
+            data-quest="Toucher le ciel"
+            >?</button>
+        </li>
         <li>
             <h2>Arcs</h2>
         </li>
-        <li><input type="checkbox" id="item8"><label for="item8">Arc d'Auriel</label></li>
-        <li><input type="checkbox" id="item48"><label for="item48">Arc de verre du Prince des Cerfs</label></li>
+        <li>
+            <input type="checkbox" id="item8">
+            <label for="item8">Arc d'Auriel</label>
+            <button class="quest-button" data-quest="Toucher le ciel">?</button>
+        </li>
+        <li>
+            <input type="checkbox" id="item48">
+            <label for="item48">Arc de verre du Prince des Cerfs</label>
+            <button class="quest-button" data-quest="Pour obtenir cette arme unique il faudra vous rendre au 'comptoir commercial délabré', à l intérieur duquel se trouve une note disant 'rendez vous ici à minuit'. Pour ce faire n'attendez pas sur place en faisant passer le temps car cela ne marchera pas : éloignez vous jusqu'à un repère proche sur la carte puis rendez vous sur place à pied (la téléportation ne fonctionne pas toujours non plus). Vous trouverez alors Falas Selvayn qui possède cet arc et qui en est équipé. Ne vous proposant pas de quête spéciale pour l'obtenir, la seule façon pour vous de l'avoir est de lui voler (atout 'Subtilisation' dans l'arbre de Vol à la tire, 70 points requis)."
+            >?</button>
+        </li>
         <li><input type="checkbox" id="item51"><label for="item51">Arc Noir du Destin</label></li>
         <li>
-            <h2>Épées</h2>
+            <h2>Épée</h2>
         </li>
-        <li><input type="checkbox" id="item10"><label for="item10">Épée d'Harkon</label></li>
+        <li>
+            <input type="checkbox" id="item10">
+            <label for="item10">Épée d'Harkon</label>
+            <button class="quest-button" data-quest="Jugement d’un pair">?</button>
+        </li>
         <li>
             <h2>Haches</h2>
         </li>
-        <li><input type="checkbox" id="item11"><label for="item11">Hache runique de la Garde de l'Aube</label></li>
-        <li><input type="checkbox" id="item16"><label for="item16">Wuuthrad</label></li>
         <li>
-            <h2>Marteaux</h2>
+            <input type="checkbox" id="item11">
+            <label for="item11">Hache runique de la Garde de l'Aube</label>
+            <button class="quest-button" data-quest="Relique perdue">?</button>
         </li>
-        <li><input type="checkbox" id="item12"><label for="item12">Marteau runique de la Garde de l'Aube</label></li>
+        <li>
+            <input type="checkbox" id="item16">
+            <label for="item16">Wuuthrad</label>
+            <button class="quest-button" data-quest="Wuuthrad est la récompense ultime pour avoir terminé la série de quêtes Compagnons, qui commence dans le Jorrvaskr de Whiterun."
+            >?</button>
+        </li>
+        <li>
+            <h2>Marteau</h2>
+        </li>
+        <li>
+            <input type="checkbox" id="item12">
+            <label for="item12">Marteau runique de la Garde de l'Aube</label>
+            <button class="quest-button" data-quest="Relique perdue">?</button>
+        </li>
         <li>
             <h2>Dagues</h2>
         </li>
