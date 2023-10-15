@@ -2,44 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+body {
+    font-family: 'Cinzel', serif;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+#summary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin: 1rem;
+    color: #9ca3af;
 }
 
-li {
-    margin: 10px;
+#summary li{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
-
-label {
-    cursor: pointer;
+button {
+    color: white;
+    background-color: #9ca3af3a;
+    border-radius: 50%;
+    padding: 0.05rem 0.5rem;
+    border-width: 0.1rem;
+    font-size: smaller;
 }
 
-input[type="checkbox"]:checked + label {
-    text-decoration: line-through;
+img{
+    max-width: 25%;
 }
-
-ul#summary {
-    list-style-type: none;
-    background-color: #f0f0f0;
-    padding: 10px;
-}
-
-ul#summary li {
-    margin-bottom: 5px;
-}
-
-ul#summary a {
-    text-decoration: none;
-    color: #333;
-}
-
-ul#summary a:hover {
-    text-decoration: underline;
-} */

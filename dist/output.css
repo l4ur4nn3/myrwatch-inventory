@@ -679,8 +679,34 @@ video {
   margin: 0.25rem;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .box-border {
@@ -1889,9 +1915,24 @@ video {
   vertical-align: super;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -1973,11 +2014,6 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2297,47 +2333,37 @@ video {
   content: var(--tw-content);
 }
 
-/* body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+body {
+  font-family: 'Cinzel', serif;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+#summary{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin: 1rem;
+  color: #9ca3af;
 }
 
-li {
-    margin: 10px;
+#summary li{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
-
-label {
-    cursor: pointer;
+button {
+  color: white;
+  background-color: #9ca3af3a;
+  border-radius: 50%;
+  padding: 0.05rem 0.5rem;
+  border-width: 0.1rem;
+  font-size: smaller;
 }
 
-input[type="checkbox"]:checked + label {
-    text-decoration: line-through;
+img{
+  max-width: 25%;
 }
-
-ul#summary {
-    list-style-type: none;
-    background-color: #f0f0f0;
-    padding: 10px;
-}
-
-ul#summary li {
-    margin-bottom: 5px;
-}
-
-ul#summary a {
-    text-decoration: none;
-    color: #333;
-}
-
-ul#summary a:hover {
-    text-decoration: underline;
-} */
 
 @media (min-width: 640px) {
   .sm\:container {

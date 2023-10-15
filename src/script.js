@@ -16,6 +16,7 @@ const h2Elements = document.querySelectorAll("h2");
 
 // create a ul
 const summaryList = document.createElement("ul");
+summaryList.id = 'summary';
 
 // go through each h2
 h2Elements.forEach((h2, index) => {
