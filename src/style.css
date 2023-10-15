@@ -1,3 +1,41 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+}
+
+
+label {
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}
+
+ul#summary {
+    list-style-type: none;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+ul#summary li {
+    margin-bottom: 5px;
+}
+
+ul#summary a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul#summary a:hover {
+    text-decoration: underline;
+}
