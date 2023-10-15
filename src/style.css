@@ -6,6 +6,8 @@
 
 body {
     font-family: 'Cinzel', serif;
+    background-color: #1f2225;
+    color: white;
 }
 
 #summary{
@@ -24,8 +26,9 @@ body {
 }
 
 button {
-    color: white;
-    background-color: #9ca3af3a;
+    color: rgba(255, 255, 255, 0.494);
+    background-color: #1f2225;
+    border-color: #3c4147;
     border-radius: 50%;
     padding: 0.05rem 0.5rem;
     border-width: 0.1rem;
@@ -44,4 +47,19 @@ tr{
 
 td{
     padding-left: 1rem;
+}
+
+#header{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        #1f2225
+    ),url(/src/SR-place-Myrwatch.jpg);
+    background-position: top 5% right 50%;
+    height: 10rem;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
 }
