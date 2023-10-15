@@ -52,3 +52,39 @@ function afficherQuete(event) {
 questButtons.forEach(button => {
     button.addEventListener('click', afficherQuete);
 });
+
+
+// questData
+// const questData = {};
+// questButtons.forEach(button => {
+//     const questName = button.getAttribute('data-quest');
+//     if (questName) {
+//         const questContent = `Contenu de la quête "${questName}"`;
+//         questData[questName] = questContent;
+//     }
+// });
+// console.log(questData);
+
+const questNames = [
+    "Jugement d'un pair",
+    "L'appel de Boéthia",
+    "La descente finale",
+    "La fin du cauchemar",
+    "La folie incarnée",
+    "La marche macabre",
+    "La mort incarnée",
+    "La quête de l'extraordinaire",
+    "Le balafré",
+    "Le bâton de Magnus",
+    "Le seul remède",
+    "Les bienfaits de la nature",
+    "Les fragments du passé",
+    "Obscures réponses",
+    "Perdue dans les Âges",
+    "Relique perdue",
+    "Sous Saarthal",
+    "Toucher le ciel",
+    "Une nuit mémorable"
+];
+
+// console.log(questNames);
