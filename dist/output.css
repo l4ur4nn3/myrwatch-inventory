@@ -687,14 +687,14 @@ video {
   margin: auto;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .mb-4 {
@@ -2362,7 +2362,7 @@ button {
 }
 
 img{
-  max-width: 25%;
+  max-width: 75%;
 }
 
 @media (min-width: 640px) {
